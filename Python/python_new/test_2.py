@@ -109,3 +109,4 @@ for i in q6:
     else:
         print(i.upper())
 
+print([s.upper() if s.islower() else s.lower() for s in q5])
